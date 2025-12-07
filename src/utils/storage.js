@@ -1,3 +1,4 @@
+// LocalStorage helper functions
 export const loadPosts = () => {
   return JSON.parse(localStorage.getItem('posts')) || [];
 };
